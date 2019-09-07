@@ -35,10 +35,10 @@ class MenuContainer extends Component {
 
     render() {
         return (
-            <>
+            <div>
                 <MenuButton handleMouseDown = {this.handleClick}/>
                 <Menu handleMouseDown = {this.handleClick} menuVisible = {this.state.visible}/>
-                </>
+            </div>
         );
     }
 }
